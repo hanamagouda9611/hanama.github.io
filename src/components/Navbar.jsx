@@ -44,7 +44,7 @@ export default function Navbar() {
       border transition-all duration-300 
       ${scrolled
         ? "bg-white/20 border-cyan-400/40 backdrop-blur-2xl shadow-[0_0_20px_#06b6d4]/30 scale-95"
-        : "bg-white/10 border-cyan-400/20 backdrop-blur-xl shadow-[0_0_40px_#06b6d4]/40"
+        : "bg-white/10 border-cyan-400/20 backdrop-blur-xl shadow-[0_0_20px_#06b6d4]/40"
       }`}
     >
       {/* Left Logo */}

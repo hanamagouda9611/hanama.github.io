@@ -22,7 +22,7 @@ export default function Home() {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="relative flex flex-col md:flex-row items-center justify-center w-full max-w-6xl bg-white/10 backdrop-blur-2xl border-[2px] border-cyan-400/40 rounded-3xl p-6 sm:p-10 md:p-16 shadow-[0_0_100px_#06b6d4]/40"
+        className="relative flex flex-col md:flex-row items-center justify-center w-full max-w-6xl bg-white/10 backdrop-blur-2xl border-[2px] border-cyan-400/40 rounded-3xl p-6 sm:p-10 md:p-16 shadow-[0_0_20px_#06b6d4]/40"
       >
         {/* Left Side - Photo */}
         <motion.div
@@ -31,7 +31,7 @@ export default function Home() {
           transition={{ duration: 0.8 }}
           className="flex justify-center w-full md:w-1/2 mb-10 md:mb-0"
         >
-          <div className="relative w-48 h-48 sm:w-60 sm:h-60 md:w-[22rem] md:h-[22rem] rounded-full overflow-hidden border-[3px] border-cyan-400/70 shadow-[0_0_70px_#06b6d4]/50 bg-white/10">
+          <div className="relative w-48 h-48 sm:w-60 sm:h-60 md:w-[22rem] md:h-[22rem] rounded-full overflow-hidden border-[3px] border-cyan-400/70 shadow-[0_0_20px_#06b6d4]/50 bg-white/10">
             <img
               src="./hanama.png"
               alt="Hanamagouda"
