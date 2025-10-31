@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/', // since it's username.github.io, use root
+  base: '/hanama.github.io/', // since it's username.github.io, use root
 })
