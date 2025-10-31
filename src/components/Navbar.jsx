@@ -52,12 +52,15 @@ export default function Navbar() {
         href="#home"
         className="flex items-center gap-2 sm:gap-3 text-2xl sm:text-3xl font-extrabold text-cyan-400 tracking-wide"
       >
-        <img
-          src="./hanama_logo.png"
-          alt="Logo"
-          className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-cyan-400/40 shadow-[0_0_10px_#06b6d4]/40"
-        />
+        <div className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-cyan-400/60 shadow-[0_0_15px_#06b6d4]/50 bg-white/10">
+          <img
+            src="./hanama_logo.png"
+            alt="Logo"
+            className="w-full h-full object-cover object-center scale-110"
+          />
+        </div>
       </a>
+
 
 
       {/* Desktop Links */}
