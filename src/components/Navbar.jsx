@@ -54,7 +54,7 @@ export default function Navbar() {
       >
         <div className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-cyan-400/60 shadow-[0_0_15px_#06b6d4]/50 bg-white/10">
           <img
-            src="./hanama_logo.png"
+            src="./hanama.png"
             alt="Logo"
             className="w-full h-full object-cover object-center scale-110"
           />
