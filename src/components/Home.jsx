@@ -26,7 +26,7 @@ export default function Home() {
         >
           <div className="relative w-64 h-64 md:w-[22rem] md:h-[22rem] rounded-full overflow-hidden border-[4px] border-cyan-400/70 shadow-[0_0_70px_#06b6d4]/50 bg-white/10">
             <img
-              src="/src/assets/hanama.jpg"
+              src="./hanama.png"
               alt="Hanamagouda Patil"
               className="w-full h-full object-cover"
             />
