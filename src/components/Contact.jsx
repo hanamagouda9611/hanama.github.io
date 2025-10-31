@@ -54,7 +54,7 @@ export default function Contact() {
         </a>
 
         <a
-          href="https://www.instagram.com/@h_gouda_p"
+          href="https://www.instagram.com/h_gouda_p?igsh=cTExbmtsb3EzcjVw"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-cyan-300 transition transform hover:scale-110"
